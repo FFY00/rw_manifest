@@ -2,7 +2,10 @@
 <manifest>
 
   <remote name="rw"
-          fetch="https://github.com/RedWolfRecovery/" />  
+	  fetch="https://github.com/RedWolfRecovery/" />
+
+  <remote name="ffy00"
+	  fetch="https://github.con/FFY00/" />
 
   <remove-project name="android_bootable_recovery"/>
   <remove-project name="android_build"/>
@@ -13,7 +16,7 @@
 
   <project name="rw_manifest" path="manifest" remote="rw" revision="rw-n" />
 
-  <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
+  <project name="rw_recovery" path="bootable/recovery" remote="ffy00" revision="rw" />
   
   <project name="rw_vendor" path="vendor/redwolf" remote="rw" revision="rw" />
 
